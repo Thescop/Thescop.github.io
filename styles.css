@@ -1,0 +1,118 @@
+body {
+  background: linear-gradient(to bottom, rgb(204, 177, 127), white);
+}
+
+.encadrement{
+  border: 2px solid black;
+  margin: 100px;
+  border-radius: 5px;
+}
+
+
+
+.image
+{
+    border-radius: 5px;
+
+}
+
+
+.image-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .image-text-1 {
+    position: absolute;
+    top: 15px;
+    left: 290px;
+    color: wheat;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .image-text-2 {
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    color: wheat;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .margin
+  {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .onglet
+  {
+    text-align: center;
+    margin-top: 5px;
+  }
+
+
+  .tab {
+    background-color: wheat;
+    border: 1px solid none;
+    padding: 10px;
+    text-decoration: none;
+    color: #555;
+    border-radius: 10px;
+  }
+  
+
+
+  #content {
+    display: grid;
+    grid-column-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "title title title"
+                         "col1 col2 col3";
+  }
+
+
+  .image-colonne
+  {
+    text-align: center;
+  }
+
+    .titre-colonne
+  {
+    text-align: center;
+  }
+  
+
+
+  .citation
+  {
+    background-color: rgb(245, 232, 207);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .copyright
+  {
+    background-color: wheat;
+    padding: 20px 0px 20px 0px;
+    font-size: 12px;
+  }
+
+
+  .bouton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: wheat;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 100px;
+  }
